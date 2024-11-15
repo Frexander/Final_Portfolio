@@ -1,15 +1,15 @@
-#How to Set Up and Run the Code 
+How to Set Up and Run the Code 
 
-##For running the code for Task 4
+For running the code for Task 4
 
 For Problem 4 the files DQN_2_lay_targetN.ipynb and 
 Q_learning_vs_SARSA.ipynb was programmed in Google Colab and copied into GitHub. The file PSO_VRPTW_alt3.ipynb was an initital flawed attempt 
 for a solution for Problem 3 and should be disregarded as a part of the portfolio. 
 
 
-##For running the code for Task2 and Task3
+For running the code for Task2 and Task3
 
-###1.Install Visual studio code:
+1.Install Visual studio code:
 https://code.visualstudio.com/download 
 Install python 3.12.7:
 https://www.python.org/downloads/release/python-3127/ 
@@ -26,24 +26,24 @@ I got:
 -jupyter cell tags 
 -Jupyter
 
-###2.Open terminal
+2.Open terminal
 Click Terminal top left of visual studio code -> click new terminal
 
-###3.Clone the Repository 
+3.Clone the Repository 
 write in the terminal
 git clone https://github.com/Frexander/Final_Portfolio.git 
 This command will create a local copy of our repo on your machine. 
 
-###4.Going inside of the Project folder,write (you could write "cd Fin" and tab)
+4.Going inside of the Project folder,write (you could write "cd Fin" and tab)
 cd .\Final_Portfolio\ 
 You will go to the inside of the project folder 
 
-###5.Install Dependencies 
+5.Install Dependencies 
 pip install -r requirements.txt 
 This will install all the required Python packages listed in requirements.txt. Important to have Python installed before running this command. 
 How it looks: ...\Final_Portfolio> pip install -r requirements.txt 
 
-###6.Confirm the Packages  (Optional)
+6.Confirm the Packages  (Optional)
 pip freeze 
 just to confirm that all the necessary dependencies are installed. You should see a list of installed packages matching the content inside the requirements.txt. 
 It can looked like this for me:
@@ -92,10 +92,10 @@ webencodings==0.5.1
 yfinance==0.2.49
 
 
-###7.Open the Project in Visual Studio Code by writing in terminal
+7.Open the Project in Visual Studio Code by writing in terminal
 code . 
 This command will open the project in Visual Studio Code.
 it looks like:...\Final_Portfolio> code .
 
 
-###8. Click on Task2.ipynb or Task3.ipynb and click "Run All" (Jupyter Notebook extension)
+8. Click on Task2.ipynb or Task3.ipynb and click "Run All" (Jupyter Notebook extension)
